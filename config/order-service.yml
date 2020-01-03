@@ -19,3 +19,9 @@ management:
     web:
       exposure:
         include: hystrix.stream
+        
+spring:
+  order-service:
+    cloud:
+      config:
+        override-none: true
